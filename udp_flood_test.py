@@ -3,7 +3,7 @@ import threading
 
 # Konfigurasi
 TARGET_IP = '182.253.38.108'  # Ganti dengan IP target
-TARGET_PORT = 80                   # Port tujuan (biasanya 80 untuk HTTP)
+TARGET_PORT = 443                   # Port tujuan (biasanya 80 untuk HTTP)
 NUM_THREADS = 100                   # Jumlah thread untuk mengirim request
 MESSAGE = b"GET / HTTP/1.1\r\nHost: example.com\r\n\r\n"  # Pesan yang dikirim
 
